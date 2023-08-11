@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+set -e
 # Handle input argument -c
 if [ $1 = "-c" ]; then
     echo "Clean build"
